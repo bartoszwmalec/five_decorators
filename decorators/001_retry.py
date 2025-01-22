@@ -1,7 +1,7 @@
 import time
 from functools import wraps
 from typing import Callable, Any
-from time import sleep
+# from time import sleep # duplicating import action from line #1
 
 
 def retry(retries: int = 3, delay: float = 1) -> Callable:
